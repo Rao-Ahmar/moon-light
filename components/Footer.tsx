@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer text-center lg:text-left">
       <div className="footer_container p-6">
