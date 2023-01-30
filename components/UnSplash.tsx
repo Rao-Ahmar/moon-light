@@ -1,8 +1,8 @@
 const UnSplash = () => {
   return (
     <section className="unsplash min-h-fit bg-cover">
-      <div className="unsplash-container flex px-12 m-auto">
-        <div className="pt-16 w-2/5">
+      <div className="unsplash-container flex flex-col md:flex-row px-12 m-auto">
+        <div className="pt-16 w-full md:w-2/5">
           <div>
             <div>
               <h2 className="text-5xl font-bold">Our Mission</h2>
