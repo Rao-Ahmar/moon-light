@@ -1,11 +1,11 @@
 const Service = () => {
   return (
     <section className="service">
-      <div className="mx-auto w-11/12 px-28 py-16 sm:px-6 lg:px-28">
-        <div className="mx-auto w-8/12 text-center">
+      <div className="mx-auto w-11/12 px-0 py-16 md:px-28">
+        <div className="mx-auto w-full md:w-8/12 text-center">
           <h2 className="text-3xl font-bold sm:text-4xl text-color:black">Our Service</h2>
 
-          <p className="mt-4 text-2xl text-color:black opacity-50 w-full">
+          <p className="mt-4 text-xl md:text-2xl text-color:black opacity-50 w-full">
           Tincidunt lorem lectus malesuada leo mattis in. Volutpat tristique lorem gravida ornare. Tincidunt elit aliquet consectetur convallis semper duis. Aliquet id           
           </p>
         </div>

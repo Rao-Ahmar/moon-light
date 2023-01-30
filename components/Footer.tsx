@@ -2,13 +2,13 @@ const Footer = () => {
   return (
     <footer className="footer text-center lg:text-left">
       <div className="footer_container p-6">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2">
-          <div className="mb-6 w-96">
+        <div className="grid grid-cols-2 md:grid-cols-4">
+          <div className="mb-6 md:w-96">
             <img src="/images/footer_logo.svg" className=" pb-3" />
 
             <ul className="list-none mb-0">
               <li>
-                <p className="text-white pb-3">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
+                <p className="text-white pb-3 text-base">A Private Limited is the most popular type of partnership Malta. The limited liability is, in fact, the only type of company allowed by Companies.</p>
               </li>
               <li>
                 <img src="/images/social_icons.svg" className="text-white pb-3" />
@@ -16,7 +16,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="mt-7 text-white pl-32">
+          <div className="mt-7 text-white md:pl-32">
             <h5 className="uppercase font-bold mb-2.5">Product</h5>
 
             <ul className="list-none mb-0">
@@ -35,7 +35,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="mt-7 text-white pl-10">
+          <div className="mt-7 text-white md:pl-10">
             <h5 className="uppercase font-bold mb-2.5">Product</h5>
 
             <ul className="list-none mb-0">
